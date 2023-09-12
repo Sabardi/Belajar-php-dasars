@@ -15,7 +15,7 @@ $total = $x +$y;
 echo "Total x dan y adalah =  $total <br>";
 echo "// tipe data float <br>";
 $a = 20.36;
-$b = 10.76;
+$b = 10.7690;
 $totals = $a + $b ;
 echo $totals; 
 
