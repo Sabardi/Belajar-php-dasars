@@ -61,4 +61,65 @@ echo "Perbadingan $a >= $b  :  $Aritmatika6 <br>";
 echo "Perbadingan $a <= $b  :  $Aritmatika7 <br>";
 
  //oprator perbandigan end
+
+ //logic operator start
+ /* 
+ and = dan => apakah angka 100 dan 1o sama = cek kondisi nya kemudian logic oprator nya
+ or = atau => jika salah satu nya benar maka itu benar
+xor = benar jika x atau y, tetapi tidak kedua nya
+&& = jika kedua nya benar maka benar = kondisi nya harus sama sama benar
+|| = or => benar jika salah satu nya benar
+! = benar jika $x nya tidak benar, dan jika benar mk salah
+ */
+
+$x = 100;
+$y = 10;
+ if ($x == 100 and $x = 10) {
+    # code...
+    echo "and Hello word!";
+}
+else {
+    echo "or cek lagi ";
+}
+echo "<br>";
+
+if ($x == 100 xor $x = 10) {
+    # code...
+    echo "or Hello word!";
+}
+else {
+    echo "or cek lagi";
+}
+
+echo "<br>";
+
+if ($x == 100 && $x == 10) {
+    # code...
+    echo "&& benar";
+}
+else {
+    echo "&& salah";
+}
+
+echo "<br>";
+
+if ($x == 100 || $x == 10) {
+    # code...
+    echo " ||benar";
+}
+else {
+    echo "|| salah";
+}
+
+echo "<br>";
+
+if ($x !== 90) {
+    # code...
+    echo " != benar";
+}else {
+    echo "!= salah";
+}
+//logic operator end
+
+
 ?>
