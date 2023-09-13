@@ -34,11 +34,13 @@ echo $Data[0][3] ;
 
 // array end
 
-// array key dan value
-
+//array numrik
 $Nama = [
-    "Nama"=>"ilham", "asal"=>"lauan"
+    [["x","c","k"],["b","d","s"]],
+    [["x","y","d"], ["s","d","a"]]
 ];
 
-echo $Nama["Nama"];
+echo "<br>";
+echo $Nama[1][0][1];
+
 ?>
