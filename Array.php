@@ -29,4 +29,18 @@ $data2 = [
     echo $Buah[0];
     echo $Buah[1];
     echo $Buah[2];
+
+    //assosiatif array start
+    $umur = ["habib"=>10, "ilham"=>20, "habi"=>19];
+    echo $umur["habib"];
+    echo "<br>";
+    //assosiatif array end
+    //assosiatif array loop start
+    foreach($umur as $age => $umr){
+        echo "$age = $umr <br>";
+    }
+    //assosiatif array loop end
+
+    
+
     ?>
