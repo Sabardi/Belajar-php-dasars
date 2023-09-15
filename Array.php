@@ -40,7 +40,23 @@ $data2 = [
         echo "$age = $umr <br>";
     }
     //assosiatif array loop end
-
     
+    //array 2 dimensi start
+    //belom selesai di kerjakan
+    $Datas = [
+        ["Nama", 10,2], 
+        ["ilham", 11,21],
+        ["harun", 12,22]
+    ];
+
+    for($baris = 0; $baris < 3; $baris++){
+        echo "<p> Baris ke : $baris </p>";
+        echo "<ul>";
+        for ($colom = 0; $colom < 3; $colom++){
+            echo "<li>colom ke : $datas [$baris][$colom]</li>";
+        }
+        echo "</ul>";
+    }
+    //array 2 end
 
     ?>
