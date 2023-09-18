@@ -5,7 +5,11 @@ function NamaFungsi(){
 }
 NamaFungsi();
 */
-
+function umur() {
+    echo "umur saya beraaoa";
+}
+umur(10);
+echo "<br>";
 //fungsi farameter start
 function Name($a, $b, $c) { #Returntype 
     echo "a = $a, <br>  b = $b,<br>  c = $c, <br>";
