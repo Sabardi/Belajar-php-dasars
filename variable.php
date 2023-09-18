@@ -43,4 +43,5 @@ $Nama = [
 echo "<br>";
 echo $Nama[1][0][1];
 
+//
 ?>
