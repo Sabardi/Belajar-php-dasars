@@ -29,16 +29,16 @@ else {
 
 //if elsefi else
 
-if ($umur > 18) {
+if ($umur < 19) {
     # code...
-    echo "anda berhasil masuk tahap terhair <br>";
-}elseif ($umur > 16) {
+    echo "anda berhasil lolos <br>";
+}elseif ($umur >=16 && $umur <=19 ) {
     # code...
-    echo "anda masuk tahap ke 2 <br>";
-}elseif($umur > 14 ){
-    echo "anda masuk tahap ke 3 <br>";
+    echo "anda masih sma <br>";
+}elseif($umur <=15 && $umur >=13 ){
+    echo "anda masih smp <br>";
 }else {
-    echo "anda gagal <br>";
+    echo "silahkan cek umur anda <br>";
 }
 
 //switch

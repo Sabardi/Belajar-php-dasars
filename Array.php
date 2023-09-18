@@ -43,7 +43,7 @@ $data2 = [
     
     //array 2 dimensi start
     //belom selesai di kerjakan
-    $Datas = [
+    $bbb = [
         ["Nama", 10,2], 
         ["ilham", 11,21],
         ["harun", 12,22]
@@ -52,8 +52,8 @@ $data2 = [
     for($baris = 0; $baris < 3; $baris++){
         echo "<p> Baris ke : $baris </p>";
         echo "<ul>";
-        for ($colom = 0; $colom < 3; $colom++){
-            echo "<li>colom ke : $datas [$baris][$colom]</li>";
+        for ($colom = 0; $colom < 2; $colom++){
+            echo "<li>colom ke : $bbb[$baris][$colom]</li>";
         }
         echo "</ul>";
     }
